@@ -37,7 +37,7 @@ connectDB();
 // --- MIDDLEWARES ---
 // FIX: Origin ko array mein dala hai taaki 5173 aur 5174 dono allow ho jayein
 app.use(cors({
-    origin: ["http://localhost:5173", "http://localhost:5174"],
+    origin: ["http://localhost:5173", "http://localhost:5174","https://job-portal-project-1-7llf.onrender.com",],
     credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization"]
